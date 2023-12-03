@@ -27,7 +27,7 @@ async def on_chat_start():
     elements = [
         cl.Image(name="image1", display="inline", path="./good_day.jpg")
     ]
-    await cl.Message(content="Hello there, Welcome to AskAnyQuery related to Data!", elements=elements).send()
+    await cl.Message(content="Hello there, Welcome to DataWiz, get answers related to Data!", elements=elements).send()
 
     files = None
 
